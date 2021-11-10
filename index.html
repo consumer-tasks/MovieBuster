@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MovieBuster</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container header-wrapper">
+        <h1 class="logo">MovieBuster</h1>
+        <form id="form">
+          <input type="text" id="search" class="search" placeholder="Search" />
+        </form>
+      </div>
+    </header>
+
+    <div class="container">
+      <section class="movie-filter">
+        <button type="button" title="popular" class="btn first active">
+          Popular
+        </button>
+        <button type="button" title="now-playing" class="btn first">
+          Now Playing
+        </button>
+        <button type="button" title="top-rated" class="btn first">
+          Top Rated
+        </button>
+        <button type="button" title="upcoming" class="btn first">
+          Upcoming
+        </button>
+      </section>
+      <main id="main"></main>
+    </div>
+
+    <script type="text/javascript" src="./config.js"></script>
+    <script type="text/javascript" src="./main.js"></script>
+  </body>
+</html>
